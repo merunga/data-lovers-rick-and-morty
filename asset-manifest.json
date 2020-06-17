@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/data-lovers-rick-and-morty/static/css/main.8c869fd7.chunk.css",
+    "main.js": "/data-lovers-rick-and-morty/static/js/main.5bfdd3f4.chunk.js",
+    "main.js.map": "/data-lovers-rick-and-morty/static/js/main.5bfdd3f4.chunk.js.map",
+    "runtime-main.js": "/data-lovers-rick-and-morty/static/js/runtime-main.75bba6cc.js",
+    "runtime-main.js.map": "/data-lovers-rick-and-morty/static/js/runtime-main.75bba6cc.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/data-lovers-rick-and-morty/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2919b5f4.chunk.js": "/data-lovers-rick-and-morty/static/js/2.2919b5f4.chunk.js",
+    "static/js/2.2919b5f4.chunk.js.map": "/data-lovers-rick-and-morty/static/js/2.2919b5f4.chunk.js.map",
+    "index.html": "/data-lovers-rick-and-morty/index.html",
+    "precache-manifest.fc1f6a94748b6e96908d91b818cf8e58.js": "/data-lovers-rick-and-morty/precache-manifest.fc1f6a94748b6e96908d91b818cf8e58.js",
+    "service-worker.js": "/data-lovers-rick-and-morty/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/data-lovers-rick-and-morty/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.8c869fd7.chunk.css.map": "/data-lovers-rick-and-morty/static/css/main.8c869fd7.chunk.css.map",
+    "static/js/2.2919b5f4.chunk.js.LICENSE.txt": "/data-lovers-rick-and-morty/static/js/2.2919b5f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75bba6cc.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2919b5f4.chunk.js",
+    "static/css/main.8c869fd7.chunk.css",
+    "static/js/main.5bfdd3f4.chunk.js"
+  ]
+}
