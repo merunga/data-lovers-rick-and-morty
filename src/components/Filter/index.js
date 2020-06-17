@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 
 const Filter = () => (
-  <div>Filter</div>
+  null
 );
 
 export default Filter;
