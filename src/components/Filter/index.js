@@ -1,18 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 
 const Filter = ({ searchText, setSearchText }) => {
+  const [searchTextTemp, setSearchTextTemp] = useState(searchText);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    setSearchText(searchTextTemp);
+  }
+
   return (
-    <Form>
+    <Form onSubmit={onSubmit}>
       <Form.Group>
         <Form.Control
           size="lg"
           type="text"
           placeholder="Busca un personaje"
           onChange={(e) => {
-            setSearchText(e.target.value);
+            setSearchTextTemp(e.target.value);
           }}
-          value={searchText}
+          value={searchTextTemp}
         >
         </Form.Control>
       </Form.Group>
