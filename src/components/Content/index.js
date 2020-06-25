@@ -5,17 +5,24 @@ import Row from 'react-bootstrap/Row';
 import data from '../../lib/data.json';
 import CharacterCard from '../CharacterCard';
 
-const Content = () => {
+const Content = ({ searchText }) => {
+
   const cards = data.results.map((character) => {
     return (
       <CharacterCard key={character.id} character={character} />
     )
   });
-  
+
+  const characters = cards
+    .filter((c) => !searchText || c.props.character.name.match(new RegExp(searchText, 'ig')))
+    
   return (
     <Container fluid>
       <Row>
-        {cards}
+        {characters.length ?
+          characters:
+          cards
+        }
       </Row>
     </Container>
   )}
